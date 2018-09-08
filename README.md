@@ -15,6 +15,6 @@ Si cumples esta misión, podrás conservar hasta 1250 puntos de HP.
 
 Si eres uno de los **primeros 5 alumnos** que completen esta misión, obtendrás **150 XP**.
 
-Si cumples de manera **IMPECABLE** con esta misión, RECUPERARÁS AUTOMÁTICAMENE 200 HP que hayas perdido en misiones anteriores.
+Si cumples de manera **IMPECABLE** con esta misión, RECUPERARÁS AUTOMÁTICAMENTE 250 HP que hayas perdido en misiones anteriores.
 
 ***

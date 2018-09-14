@@ -57,3 +57,38 @@ def main():
 
        dimension1_1 = int(input("Escriba la base del 1er rectangulo: "))
        dimension2_1 = int(input("Escriba la altura del 1er rectangulo: "))
+
+       area1 = rectangulo1Area(dimension1_1, dimension2_1)
+       perimetro1 = rectangulo1Perimetro(dimension1_1, dimension2_1)
+
+       print(" ") #Espacio entre lineas
+
+       print ("El area del 1er rectangulo es de ", area1)
+       print ("Mientras que el perimetro es de ", perimetro1)
+
+#################################################################################
+
+       print(" ") #Espacio entre lineas
+
+       dimension1_2 = int(input("Escribe la base del 2do rectangulo: "))
+       dimension2_2 = int(input("Escribe la altura del 2do rectangulo: "))
+
+       area2 = rectangulo2Area(dimension1_2, dimension2_2)
+       perimetro2 = rectangulo2Perimetro(dimension1_2, dimension2_2)
+
+       print(" ") #Espacio entre lineas
+
+       print("El area del 2do rectangulo es de ", area2)
+       print("Mientras que perimetro es de : ", perimetro2)
+
+###################################################################################
+
+       print(" ") #Espacio entre lineas
+
+       mayor_area = compararAreas(area1, area2)
+       print ("Si quieres saber cual tuvo una mayor area, fue...",(mayor_area))
+
+       mayor_perimetro = compararPerimetros(perimetro1, perimetro2)
+       print ("Y si quieres saber cual tuvo un mayor perimetro, fue...",(mayor_perimetro))
+
+main()
